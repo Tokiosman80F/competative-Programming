@@ -10,8 +10,7 @@ int main()
         cin>>a>>b;
         if(a>=b)
         {
-            while(a!=1)
-            a=a-b;
+            while
 
             cout<<a<<endl;
         }
