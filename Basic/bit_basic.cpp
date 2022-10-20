@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-	int a=5;
-	int b=7;
+	int a=10;
+	int b=2;
 
 	cout<<(a&1)<<endl; 
 	cout<<"a&b :"<<(a&b)<<endl;
