@@ -1,20 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-	int n[1000],size,min=INT_MIN;
-	cin>>size;
-	for (int i = 0; i <size ; ++i)
+
+int getMin(int arr[],int n ){
+	int min=INT_MAX;
+	for (int i = 0; i <n ; ++i)
 	{
 		/* code */
-		cin>>n[i];
-	}
+		if(arr[i]<min)
+		{
+			min=arr[i];
+		}
 
-	for (int i = 0; i < size; ++i)
+	}
+	return min;
+}
+int main()
+{
+	int size;
+	cin>>size;
+	int arr[100];
+	for(int i=0;i<size;i++)
 	{
-		if(n[i]>)
+		cin>>arr[i];
 	}
 
-
+	cout<<"the minimum value is: "<<getMin(arr,size);
 
 }
